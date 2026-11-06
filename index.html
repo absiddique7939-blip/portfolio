@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ===================== SEO ===================== -->
+  <title>Abubakker Siddique — Computer Science Student & Aspiring Software Engineer</title>
+  <meta
+    name="description"
+    content="Portfolio of Abubakker Siddique — a sixth-semester Computer Science student at the University of Swat with a 3.56 CGPA, aspiring Software Engineer and Web Developer."
+  />
+  <meta
+    name="keywords"
+    content="Abubakker Siddique, portfolio, computer science student, software engineer, web developer, University of Swat, Python, C++, JavaScript, HTML5, CSS3"
+  />
+  <meta name="author" content="Abubakker Siddique" />
+  <meta name="theme-color" content="#05070d" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Abubakker Siddique — Aspiring Software Engineer & Web Developer" />
+  <meta
+    property="og:description"
+    content="Sixth-semester Computer Science student at the University of Swat. Building my future through code and innovation."
+  />
+  <meta property="og:locale" content="en_US" />
+
+  <link
+    rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%23070b14'/><text x='50' y='68' font-family='Arial' font-size='50' font-weight='bold' fill='%233b82f6' text-anchor='middle'>AS</text></svg>"
+  />
+
+  <!-- ===================== Fonts ===================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Sora:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Structured data for search engines -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Abubakker Siddique",
+      "jobTitle": "Computer Science Student",
+      "image": "profile.jpg",
+      "email": "mailto:absiddique7939@gmail.com",
+      "telephone": "+923329100832",
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "University of Swat"
+      },
+      "knowsAbout": [
+        "Python",
+        "C++",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Web Development",
+        "Software Engineering",
+        "Problem Solving"
+      ]
+    }
+  </script>
+
+  <noscript>
+    <style>
+      .reveal { opacity: 1 !important; transform: none !important; }
+      .skill-fill { width: var(--value) !important; }
+    </style>
+  </noscript>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="#home" class="brand" aria-label="Abubakker Siddique — home">
+        <span class="brand-mark" aria-hidden="true">AS</span>
+        <span class="brand-text">
+          <strong>Abubakker</strong>
+          <small>Software Engineer in the making</small>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Main navigation">
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#education">Education</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#goals">Goals</a>
+        <a class="nav-link nav-cta" href="#contact">Contact Me</a>
+      </nav>
+
+      <button
+        class="nav-toggle"
+        id="nav-toggle"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="nav"
+      >
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true">
+        <span class="glow glow-1"></span>
+        <span class="glow glow-2"></span>
+        <span class="hero-grid"></span>
+      </div>
+
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">
+            <span class="status-dot" aria-hidden="true"></span>
+            Computer Science Student · 6th Semester
+          </p>
+
+          <h1 class="hero-title reveal">Abubakker Siddique</h1>
+
+          <p class="hero-headline reveal">
+            Building My Future Through
+            <span class="grad-text">Code and Innovation.</span>
+          </p>
+
+          <p class="hero-subtitle reveal">
+            Computer Science Student | Aspiring Software Engineer | Web Developer
+          </p>
+
+          <div class="hero-actions reveal">
+            <a href="#projects" class="btn btn-primary">
+              Explore My Work
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="#contact" class="btn btn-ghost">Contact Me</a>
+          </div>
+
+          <ul class="hero-meta reveal">
+            <li class="meta-chip"><strong>3.56</strong> CGPA</li>
+            <li class="meta-chip"><strong>6th</strong> Semester</li>
+            <li class="meta-chip"><strong>University</strong> of Swat</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="portrait">
+            <div class="portrait-inner">
+              <img
+                src="profile.jpg"
+                alt="Portrait of Abubakker Siddique"
+                width="900"
+                height="1200"
+                loading="eager"
+                decoding="async"
+              />
+              <span class="portrait-caption">BSCS · 6th Semester</span>
+            </div>
+
+            <span class="float-badge badge-1" aria-hidden="true">Python</span>
+            <span class="float-badge badge-2" aria-hidden="true">C++</span>
+            <span class="float-badge badge-3" aria-hidden="true">JavaScript</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-label">01 — About Me</p>
+          <h2 class="section-title">Curious by nature, <span class="grad-text">consistent by choice</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p class="about-lead">
+              I'm Abubakker Siddique, a sixth-semester Computer Science student at the
+              University of Swat with a CGPA of 3.56.
+            </p>
+            <p class="about-text">
+              I'm passionate about programming, software engineering, and web
+              development. I enjoy learning new technologies, breaking down
+              difficult problems, and building practical projects that turn
+              classroom concepts into something real.
+            </p>
+            <p class="about-text">
+              I'm still early in my journey, and I'm honest about that. What I
+              bring is a quick learning curve, steady effort, and genuine
+              curiosity. My goal is to grow into a professional software engineer
+              who writes clean code and builds software people can rely on.
+            </p>
+
+            <ul class="chips" aria-label="Personal qualities">
+              <li class="chip">Quick Learner</li>
+              <li class="chip">Problem Solver</li>
+              <li class="chip">Motivated</li>
+              <li class="chip">Dedicated</li>
+              <li class="chip">Passionate about Technology</li>
+            </ul>
+          </div>
+
+          <aside class="about-card reveal" aria-label="Academic snapshot">
+            <h3 class="about-card-title">Academic Snapshot</h3>
+            <ul class="fact-list">
+              <li class="fact">
+                <span class="fact-label">Degree</span>
+                <span class="fact-value">BS Computer Science</span>
+              </li>
+              <li class="fact">
+                <span class="fact-label">Semester</span>
+                <span class="fact-value">6th</span>
+              </li>
+              <li class="fact">
+                <span class="fact-label">CGPA</span>
+                <span class="fact-value accent">3.56</span>
+              </li>
+              <li class="fact">
+                <span class="fact-label">University</span>
+                <span class="fact-value">University of Swat</span>
+              </li>
+              <li class="fact">
+                <span class="fact-label">Status</span>
+                <span class="fact-value">
+                  <span class="pill pill-green">Currently Studying</span>
+                </span>
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EDUCATION ===================== -->
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-label">02 — Education</p>
+          <h2 class="section-title">Learning with <span class="grad-text">purpose</span></h2>
+          <p class="section-sub">
+            A steady academic path built on fundamentals, practice, and a
+            willingness to keep going.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <!-- BSCS -->
+          <article class="timeline-item reveal">
+            <div class="timeline-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10 12 5 2 10l10 5 10-5Z" />
+                <path d="M6 12v5c0 1.1 2.7 3 6 3s6-1.9 6-3v-5" />
+              </svg>
+            </div>
+
+            <div class="edu-card">
+              <div class="edu-top">
+                <h3 class="edu-title">Bachelor of Science in Computer Science</h3>
+                <!-- EDIT: replace the placeholder years with your real dates -->
+                <span class="edu-dates">20XX — Present</span>
+              </div>
+              <p class="edu-school">University of Swat</p>
+              <ul class="edu-meta">
+                <li class="pill pill-blue">BSCS</li>
+                <li class="pill">6th Semester</li>
+                <li class="pill">CGPA 3.56</li>
+                <li class="pill pill-green">Currently Studying</li>
+              </ul>
+              <p class="edu-desc">
+                Building a strong foundation in programming fundamentals, data
+                structures, algorithms, and software development through
+                coursework and hands-on projects.
+              </p>
+            </div>
+          </article>
+
+          <!-- DIT -->
+          <article class="timeline-item reveal">
+            <div class="timeline-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="13" rx="2" />
+                <path d="M7 21h10M12 17v4M7 8h6M7 11h4" />
+              </svg>
+            </div>
+
+            <div class="edu-card">
+              <div class="edu-top">
+                <h3 class="edu-title">Diploma in Information Technology</h3>
+                <!-- EDIT: replace the placeholder years with your real dates -->
+                <span class="edu-dates">20XX — 20XX</span>
+              </div>
+              <p class="edu-school">1-Year Diploma Program</p>
+              <ul class="edu-meta">
+                <li class="pill">Duration: 1 Year</li>
+                <li class="pill pill-green">Completed</li>
+              </ul>
+              <p class="edu-desc">
+                Covered the fundamentals of information technology, computing
+                concepts, and practical software use — the starting point of my
+                interest in technology.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SKILLS ===================== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-label">03 — Skills</p>
+          <h2 class="section-title">Tools I'm <span class="grad-text">growing with</span></h2>
+          <p class="section-sub">
+            These levels show where I am today — not where I'll stop. I'm
+            continuously learning, practising, and improving.
+          </p>
+        </div>
+
+        <!-- Programming languages -->
+        <div class="skill-group reveal" data-skills>
+          <div class="skill-group-head">
+            <h3>Programming Languages</h3>
+            <span class="group-count">03</span>
+          </div>
+
+          <div class="skill-grid">
+            <div class="skill-card">
+              <span class="skill-icon si-python" aria-hidden="true">Py</span>
+              <div class="skill-info">
+                <div class="skill-row">
+                  <span class="skill-name">Python</span>
+                  <span class="skill-level">Intermediate</span>
+                </div>
+                <div class="skill-track" role="img" aria-label="Python: intermediate level">
+                  <span class="skill-fill" style="--value: 70%"></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <span class="skill-icon si-cpp" aria-hidden="true">C++</span>
+              <div class="skill-info">
+                <div class="skill-row">
+                  <span class="skill-name">C++</span>
+                  <span class="skill-level">Intermediate</span>
+                </div>
+                <div class="skill-track" role="img" aria-label="C++: intermediate level">
+                  <span class="skill-fill" style="--value: 65%"></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <span class="skill-icon si-js" aria-hidden="true">JS</span>
+              <div class="skill-info">
+                <div class="skill-row">
+                  <span class="skill-name">JavaScript</span>
+                  <span class="skill-level">Learning</span>
+                </div>
+                <div class="skill-track" role="img" aria-label="JavaScript: learning level">
+                  <span class="skill-fill" style="--value: 60%"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Web development -->
+        <div class="skill-group reveal" data-skills>
+          <div class="skill-group-head">
+            <h3>Web Development</h3>
+            <span class="group-count">04</span>
+          </div>
+
+          <div class="skill-grid">
+            <div class="skill-card">
+              <span class="skill-icon si-html" aria-hidden="true">H5</span>
+              <div class="skill-info">
+                <div class="skill-row">
+                  <span class="skill-name">HTML5</span>
+                  <span class="skill-level">Confident</span>
+                </div>
+                <div class="skill-track" role="img" aria-label="HTML5: confident level">
+                  <span class="skill-fill" style="--value: 85%"></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <span class="skill-icon si-css" aria-hidden="true">C3</span>
+              <div class="skill-info">
+                <div class="skill-row">
+                  <span class="skill-name">CSS3</span>
+                  <span class="skill-level">Confident</span>
+                </div>
+                <div class="skill-track" role="img" aria-label="CSS3: confident level">
+                  <span class="skill-fill" style="--value: 80%"></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <span class="skill-icon si-js" aria-hidden="true">JS</span>
+              <div class="skill-info">
+                <div class="skill-row">
+                  <span class="skill-name">JavaScript</span>
+                  <span class="skill-level">Learning</span>
+                </div>
+                <div class="skill-track" role="img" aria-label="JavaScript: learning level">
+                  <span class="skill-fill" style="--value: 60%"></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <span class="skill-icon si-rwd" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="4" width="15" height="11" rx="1.6" />
+                  <rect x="17" y="9" width="5" height="10" rx="1.4" />
+                  <path d="M6 19h7" />
+                </svg>
+              </span>
+              <div class="skill-info">
+                <div class="skill-row">
+                  <span class="skill-name">Responsive Web Design</span>
+                  <span class="skill-level">Comfortable</span>
+                </div>
+                <div class="skill-track" role="img" aria-label="Responsive web design: comfortable level">
+                  <span class="skill-fill" style="--value: 75%"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professional interests -->
+        <div class="skill-group reveal">
+          <div class="skill-group-head">
+            <h3>Professional Interests</h3>
+            <span class="group-count">05</span>
+          </div>
+
+          <div class="interest-grid">
+            <div class="interest-card"><span aria-hidden="true">⚙️</span> Software Engineering</div>
+            <div class="interest-card"><span aria-hidden="true">🌐</span> Web Development</div>
+            <div class="interest-card"><span aria-hidden="true">🐍</span> Python Programming</div>
+            <div class="interest-card"><span aria-hidden="true">🧩</span> Problem Solving</div>
+            <div class="interest-card"><span aria-hidden="true">💻</span> Software Development</div>
+          </div>
+        </div>
+
+        <p class="skill-note reveal">
+          <span aria-hidden="true">ℹ️</span>
+          Honest self-assessment. I'm a student — every skill here is a work in progress.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== PROJECTS ===================== -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-label">04 — Projects</p>
+          <h2 class="section-title">A showcase <span class="grad-text">in progress</span></h2>
+          <p class="section-sub">
+            These are starter placeholders I'll replace with real work as I build
+            it. Each one represents something I'm learning right now.
+          </p>
+        </div>
+
+        <div class="project-grid">
+
+          <article class="project-card reveal">
+            <div class="project-thumb pt-1" aria-hidden="true">
+              <span class="project-glyph">&lt;/&gt;</span>
+              <span class="placeholder-tag">Placeholder</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Personal Portfolio Website</h3>
+              <p class="project-desc">
+                A responsive personal portfolio with a dark theme, smooth scroll,
+                glassmorphism cards, and animated skill bars.
+              </p>
+              <ul class="tags">
+                <li>HTML5</li><li>CSS3</li><li>JavaScript</li>
+              </ul>
+              <a href="#" class="project-link" aria-label="View Personal Portfolio Website on GitHub">
+                View on GitHub
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-thumb pt-2" aria-hidden="true">
+              <span class="project-glyph">🐍</span>
+              <span class="placeholder-tag">Placeholder</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Student Management System</h3>
+              <p class="project-desc">
+                A Python application to add, search, update, and remove student
+                records, with clean console output and file-based storage.
+              </p>
+              <ul class="tags">
+                <li>Python</li><li>File Handling</li><li>OOP</li>
+              </ul>
+              <a href="#" class="project-link" aria-label="View Student Management System on GitHub">
+                View on GitHub
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-thumb pt-3" aria-hidden="true">
+              <span class="project-glyph">🖥️</span>
+              <span class="placeholder-tag">Placeholder</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Responsive Landing Page</h3>
+              <p class="project-desc">
+                A clean product landing page built with modern CSS — flexible
+                grids, accessible navigation, and layouts that adapt to any screen.
+              </p>
+              <ul class="tags">
+                <li>HTML5</li><li>CSS3</li><li>Flexbox</li><li>Grid</li>
+              </ul>
+              <a href="#" class="project-link" aria-label="View Responsive Landing Page on GitHub">
+                View on GitHub
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-thumb pt-4" aria-hidden="true">
+              <span class="project-glyph">C++</span>
+              <span class="placeholder-tag">Placeholder</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Console-Based Application</h3>
+              <p class="project-desc">
+                A C++ practice project focused on functions, arrays, and control
+                flow — built to strengthen programming fundamentals.
+              </p>
+              <ul class="tags">
+                <li>C++</li><li>Problem Solving</li><li>Algorithms</li>
+              </ul>
+              <a href="#" class="project-link" aria-label="View Console-Based Application on GitHub">
+                View on GitHub
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== GOALS ===================== -->
+    <section class="section" id="goals">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-label">05 — My Goals</p>
+          <h2 class="section-title">Where I'm <span class="grad-text">heading next</span></h2>
+          <p class="section-sub">
+            My ambition is to become a professional Software Engineer who builds
+            software that is genuinely useful — and to keep getting better at the
+            craft every single year.
+          </p>
+        </div>
+
+        <div class="goal-grid">
+          <article class="goal-card reveal">
+            <span class="goal-num" aria-hidden="true">01</span>
+            <div class="goal-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4.5 16.5c-1.5 1.3-2 5-2 5s3.7-.5 5-2c.8-1 .8-2.5-.1-3.4-.9-.9-2.2-.8-2.9.4Z" />
+                <path d="m12 15-3-3a22 22 0 0 1 2-3.9A12.9 12.9 0 0 1 22 2c0 2.7-.8 7.5-6 11a22 22 0 0 1-4 2Z" />
+                <path d="M9 12H4l2-4h5M12 15v5l4-2v-5" />
+              </svg>
+            </div>
+            <h3>Become a Professional Software Engineer</h3>
+            <p>
+              Grow from student to working engineer by mastering fundamentals,
+              contributing to real codebases, and learning how professional teams
+              design and ship software.
+            </p>
+          </article>
+
+          <article class="goal-card reveal">
+            <span class="goal-num" aria-hidden="true">02</span>
+            <div class="goal-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m8 6-6 6 6 6M16 6l6 6-6 6M14 4l-4 16" />
+              </svg>
+            </div>
+            <h3>Strengthen My Programming Skills</h3>
+            <p>
+              Keep improving in Python, C++, and JavaScript — writing cleaner
+              code, understanding algorithms deeply, and solving harder problems
+              with confidence.
+            </p>
+          </article>
+
+          <article class="goal-card reveal">
+            <span class="goal-num" aria-hidden="true">03</span>
+            <div class="goal-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 18h6M10 22h4" />
+                <path d="M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2Z" />
+              </svg>
+            </div>
+            <h3>Build Innovative Software Solutions</h3>
+            <p>
+              Turn ideas into working products that solve real problems — starting
+              with small, focused projects and growing into software that makes a
+              difference.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-label">06 — Contact</p>
+          <h2 class="section-title">Let's <span class="grad-text">connect</span></h2>
+          <p class="section-sub">
+            Open to internships, junior roles, collaborations, and conversations
+            about technology. I usually reply quickly.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact details -->
+          <div class="contact-details reveal">
+            <a class="contact-item" href="mailto:absiddique7939@gmail.com">
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="5" width="18" height="14" rx="2.5" />
+                  <path d="m3.5 7 8.5 6 8.5-6" />
+                </svg>
+              </span>
+              <span class="contact-text">
+                <span class="contact-label">Email</span>
+                <span class="contact-value">absiddique7939@gmail.com</span>
+              </span>
+            </a>
+
+            <a class="contact-item" href="tel:+923329100832">
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z" />
+                </svg>
+              </span>
+              <span class="contact-text">
+                <span class="contact-label">Phone</span>
+                <span class="contact-value">0332 9100832</span>
+              </span>
+            </a>
+
+            <div class="contact-item contact-item-static">
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </span>
+              <span class="contact-text">
+                <span class="contact-label">Location</span>
+                <span class="contact-value">University of Swat, Khyber Pakhtunkhwa</span>
+              </span>
+            </div>
+
+            <div class="socials">
+              <!-- EDIT: replace # with your real profile URLs -->
+              <a href="#" class="social" aria-label="GitHub profile">
+                <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+                  <path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 1.7 2.6 1.2 3.2.9.1-.7.4-1.2.7-1.5-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5Z" />
+                </svg>
+                <span>GitHub</span>
+              </a>
+
+              <a href="#" class="social" aria-label="LinkedIn profile">
+                <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+                  <path d="M20.4 3H3.6c-.3 0-.6.3-.6.6v16.8c0 .3.3.6.6.6h16.8c.3 0 .6-.3.6-.6V3.6c0-.3-.3-.6-.6-.6ZM8.3 18.3H5.7V9.7h2.6v8.6ZM7 8.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm11.3 9.8h-2.6v-4.2c0-1-.4-1.7-1.4-1.7-.8 0-1.2.5-1.4 1-.1.2-.1.5-.1.7v4.2H10V9.7h2.6v1.2c.4-.6 1.1-1.4 2.7-1.4 2 0 3.5 1.3 3.5 4.1v4.7Z" />
+                </svg>
+                <span>LinkedIn</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact form -->
+          <form class="contact-form reveal" id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="field">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name" required />
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required />
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="What is this about?" required />
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your idea or opportunity..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-wide">
+              Send Message
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z" /><path d="M22 2 11 13" /></svg>
+            </button>
+
+            <p class="form-note" id="form-note" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#home" class="brand" aria-label="Back to top">
+          <span class="brand-mark" aria-hidden="true">AS</span>
+          <span class="brand-text">
+            <strong>Abubakker Siddique</strong>
+            <small>Computer Science Student · Aspiring Software Engineer</small>
+          </span>
+        </a>
+        <p class="footer-tagline">
+          Building my future through code and innovation — one project at a time.
+        </p>
+      </div>
+
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#goals">Goals</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="year">2026</span> Abubakker Siddique. All rights reserved.</p>
+      <p class="footer-credit">Designed &amp; built with HTML, CSS &amp; JavaScript.</p>
+    </div>
+  </footer>
+
+  <a href="#home" class="back-top" id="back-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" /></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
